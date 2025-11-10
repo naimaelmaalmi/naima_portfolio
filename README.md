@@ -1,14 +1,6 @@
-# Cyber Terminal Portfolio
 
-Ultra-modern portfolio website for DevOps/Cloud Engineers with Cyber Terminal aesthetic.
 
-## 🚀 Features
 
-- **Cyber Terminal Design**: Electric neon green theme with monospace fonts
-- **Advanced Animations**: Typewriter effects, glitch transitions, 3D grid background
-- **Responsive Design**: Perfect across desktop, tablet, and mobile
-- **Interactive Elements**: Terminal commands, skill explorer, project filtering
-- **Professional Content**: Complete showcase of DevOps and cloud engineering skills
 
 ## 🛠 Tech Stack
 

@@ -41,13 +41,12 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: 'Hyderabad, Telangana, India',
-  phoneNo: '+91 9000600559',
-  email: 'neerajnakka.n@gmail.com',
+  address: 'Rabat, Morocco',
+  phoneNo: '+212 612 82 65 30',
+  email: 'naimaelmaalmi12@gmail.com',
   social: {
-    github: 'https://github.com/neerajnakka',
-    linkedin: 'https://linkedin.com/in/neerajchandran',
-    twitter: 'https://twitter.com/neerajnakka',
+    github: 'https://github.com/naimaelmaalmi',
+    linkedin: 'https://www.linkedin.com/in/naima-el-maalmi-36a795288',
   }
 };
 
