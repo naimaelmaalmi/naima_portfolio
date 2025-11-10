@@ -83,7 +83,7 @@ export const Home = () => {
               <div className="font-mono text-xl md:text-2xl font-bold tracking-wide mt-2">
                 <span className="text-[#FFA500]">~/role:</span>
                 <span className="text-[#8AE234] ml-2">
-                  <Typewriter text="Future DevOps & Cloud Engineer ☁️| Full Stack Enthusiast " delay={80} />
+                  <Typewriter text="Future DevOps & Cloud Engineer| Full Stack Enthusiast " delay={80} />
                 </span>
                 <span className="terminal-cursor ml-1 inline-block w-2 h-5 bg-[#8AE234] animate-pulse" />
               </div>
