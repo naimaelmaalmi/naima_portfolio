@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { ExternalLink, Code2 } from 'lucide-react';
 import { Calendar, MapPin, Code, Zap, Terminal, Server, GitBranch, Database, Cloud, Shield, BookOpen, Users, Award } from 'lucide-react';
 
 export const About = () => {
@@ -450,12 +452,17 @@ including <span className="text-[#00D9A3]">Cloud Infrastructure</span>,
                 <span className="text-[#FFA500]">&gt;&gt;</span> Let's build robust and scalable solutions together
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="/contact"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#8AE234] text-[#0a0014] font-bold rounded-lg hover:bg-[#00D9A3] transition-all duration-300 font-mono shadow-[0_0_30px_rgba(138,226,52,0.5)]"
-                >
-                  <span>→ ./contact.sh</span>
-                </a>
+                <Link
+                      to="/contact"
+                      className="group relative inline-flex items-center justify-center px-8 py-4 bg-[#00D9A3] text-[#0a0014] font-bold rounded-lg hover:bg-[#8AE234] transition-all duration-300 shadow-[0_0_30px_rgba(0,217,163,0.5)] hover:shadow-[0_0_40px_rgba(138,226,52,0.6)] font-mono overflow-hidden"
+                    >
+                      <span className="relative z-10 flex items-center gap-2">
+                       
+                        <span>→ ./contact.sh</span>
+                      </span>
+                      <div className="absolute inset-0 bg-gradient-to-r from-[#00D9A3] via-[#8AE234] to-[#00D9A3] opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl"></div>
+                    </Link>
+                
                 <a
                   href="/assets/resume.pdf"
                   target="_blank"
