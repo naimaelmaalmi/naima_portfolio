@@ -31,7 +31,7 @@ export const Navbar = () => {
               <div className="font-mono text-lg font-bold">
                 <span className="text-[#8AE234]">naima</span>
                 <span className="text-[#C678DD]">@</span>
-                <span className="text-[#00D9A3]">devops</span>
+                <span className="text-[#00D9A3]">portfolio</span>
               </div>
             </Link>
 
