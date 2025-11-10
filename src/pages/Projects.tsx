@@ -61,8 +61,8 @@ const PROJECTS_DATA = [
     category: 'fullstack',
     technologies: ['ReactJS', 'TypeScript', 'Framer Motion', 'TailwindCSS', 'Vite'],
     image: '/assets/projett.png',
-    githubLink: 'https://github.com/naimaelmaalmi/portfolio',
-    websiteLink: 'https://naima-portfolio.vercel.app',
+    githubLink: 'https://github.com/naimaelmaalmi/naima_portfolio',
+    websiteLink: 'https://my-portfolio-naima.netlify.app',
     type: 'Personal Project',
   },
 ];
